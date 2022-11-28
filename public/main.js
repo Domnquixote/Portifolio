@@ -1,8 +1,8 @@
 // import './style.css'
 import * as THREE from 'three'
-import  {OrbitControls}  from './node_modules/three/examples/jsm/controls/OrbitControls.js'
+import  OrbitControls  from './node_modules/three/examples/jsm/controls/OrbitControls.js'
 // import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader'
-import  {GLTFLoader}  from './node_modules/three/examples/jsm/loaders/GLTFLoader'
+import  GLTFLoader  from './node_modules/three/examples/jsm/loaders/GLTFLoader.js'
 import Stats from './node_modules/three/examples/jsm/libs/stats.module.js'
 
 const scene = new THREE.Scene()
